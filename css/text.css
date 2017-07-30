@@ -1,0 +1,127 @@
+/* -------- STYLE */
+
+a:focus {outline: none;}
+.is-tab-user a:focus {outline : 3px solid #CD919E;}
+* {box-sizing: border-box;}
+
+/*font-type--------------------------------------*/
+html body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/*--Links Colors---------------*/
+a {color:black;transition:color 0.3s;}
+a:hover {color:#CD919E;cursor: pointer;}
+
+
+/*responsive-text--------------------------------------*/
+      .XS-text { font-size: 0.6em; }
+      .S-text { font-size: 0.8em; }
+      .-text {font-size: 1em;}
+      .M-text {font-size: 1.2em;}
+      .L-text { font-size: 1.5em;}
+      .XL-text { font-size: 2.5em;}
+      .XXL-text { font-size: 3em;}
+      .GG-text {font-size:6em;}
+      .intro-text { font-size: 2em;}
+
+/*line-height--------------------------------------*/
+      .line-height-text {line-height: 1.5em;}
+      .line-height-title {line-height: 1.1em;}
+      .line-height-title2 {line-height: 1.3em;}
+      .line-height-title3 {line-height: 0.75em;}
+
+
+@media screen and (min-width: 600px) {
+/*------------------------------------------------------------------*/
+      .XS-text { font-size: 0.8em; }
+      .S-text { font-size: 0.9em; }
+      .-text {font-size: 1.1em;}
+      .M-text {font-size: 1.3em;}
+      .L-text { font-size: 2em;}
+      .XL-text { font-size: 2.5em; }
+      .XXL-text { font-size: 3em;}
+      .GG-text {font-size:10.5em;}
+      .intro-text { font-size: 2.5em;}
+
+    }
+
+@media screen and (min-width: 800px) {
+/*------------------------------------------------------------------*/
+      .XS-text { font-size: 0.8em; }
+      .S-text { font-size: 0.9em; }
+      .-text {font-size: 1.1em;}
+      .M-text {font-size: 1.3em;}
+      .L-text { font-size: 2.5em;}
+      .XL-text { font-size: 3.8em; }
+      .XXL-text { font-size: 4.8em;}
+      .GG-text {font-size:13.5em;}
+      .intro-text { font-size: 3.8em;}
+
+    }
+
+
+@media screen and (min-width: 1300px) {
+/*------------------------------------------------------------------*/
+      .XS-text { font-size: 0.8em; }
+      .S-text { font-size: 1em; }
+      .-text {font-size: 1.2em;}
+      .M-text {font-size: 1.5em;}
+      .L-text { font-size: 2.5em;}
+      .XL-text { font-size: 4.5em; }
+      .XXL-text { font-size: 5.5em;}
+      .GG-text {font-size:22em;}
+      .intro-text { font-size: 4.5em;}
+
+    }
+
+
+@media screen and (min-width: 1800px) {
+/*------------------------------------------------------------------*/
+      .XS-text { font-size: 0.9em; }
+      .S-text { font-size: 1.2em; }
+      .-text {font-size: 1.4em;}
+      .M-text {font-size: 2em;}
+      .L-text { font-size: 2.8em; }
+      .XL-text { font-size: 6em; }
+      .XXL-text { font-size: 8em;}
+      .GG-text {font-size:30em;}
+      .intro-text { font-size: 6em;}
+
+    }
+
+/* Arrow */
+
+.ui-arrowSquare-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 2em;
+}
+
+.ui-arrowSquare {
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+.ui-arrowLine {
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  transition:width 0.5s;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////
+
+1 / HOME PAGE
+
+//////////////////////////////////////////////////////////////////////////// */
+
+.home-page {
+position: relative;
+z-index: 100;
+}

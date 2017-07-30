@@ -1,0 +1,150 @@
+/* //////////////////////////// SECTION 2 ///////////////////////////////////*/
+
+/* Logos */
+.ui-logoDesktop {
+  display: none;
+  font-weight: bold;
+  padding:1em 1em 1em 0;
+  letter-spacing:1em;
+}
+
+.ui-logoMobil {
+  font-weight: bold;
+  padding:1em 1em 1em 0;
+  letter-spacing:1em;
+}
+
+
+@media screen and (min-width: 500px) {
+
+  .ui-logoDesktop {display: flex;flex-wrap: wrap;}
+  .ui-logoMobil {display: none;}
+
+
+}
+
+/* Responsive Font Titles */
+.ui-responsiveTitles h3{ font-size: 1.8em;font-weight: bold;}
+.ui-responsiveInfosFont {font-size: 0.8em; }
+
+@media screen and (min-width: 700px) {
+  .ui-responsiveTitles h3 { font-size: 4.5em; }
+  .ui-responsiveInfosFont {font-size: 1.3em; }
+}
+@media screen and (mina-width: 1300px) {
+  .ui-responsiveTitles h3 { font-size: 4.5em; }
+  .ui-responsiveInfosFont {font-size: 1.5em; }
+}
+@media screen and (min-width: 1800px) {
+  .ui-responsiveTitles h3 { font-size: 6em; }
+  .ui-responsiveInfosFont {font-size: 2em; }
+}
+
+/* Responsive Font Contact */
+.ui-responsiveContactFont{ font-size: 1.3em;font-weight: bold; }
+
+@media screen and (min-width: 700px) {
+ .ui-responsiveContactFont{ font-size: 3em; }
+}
+@media screen and (min-width: 1300px) {
+  .ui-responsiveContactFont{ font-size: 6em; }
+}
+@media screen and (min-width: 1800px) {
+  .ui-responsiveContactFont{ font-size: 7em; }
+}
+
+
+/* block hover on elements during intro animating */
+.section2--blockHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+}
+
+/* backgrounds previews when hover on titles */
+.section2--backgroundsPreviews {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-size: auto 100%;
+  overflow: hidden;
+
+}
+
+.section2--backgroundsPreviews img{
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition:opacity 1s;
+}
+
+@media screen and (max-width: 1000px) {
+  .section2--backgroundsPreviews img{
+  display: none;
+}
+}
+
+/* backgrounds previews url */
+.back1 {background-image: url('https://jlantunes.com/wp-content/uploads/2017/04/graphismBack4.jpg');}
+.back2 {background-image: url('https://jlantunes.com/wp-content/uploads/2017/04/illusback1.jpg');}
+.back3 {background-image: url('https://jlantunes.com/wp-content/uploads/2017/04/webback2.jpg');}
+.back4 {background-image: url('https://jlantunes.com/wp-content/uploads/2017/04/otherBack1.jpg');}
+
+
+
+
+
+
+
+
+.section2--mainContent--titles {
+  cursor: pointer;
+  position: relative;
+  align-items: baseline;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .section2--mainContent--titles {
+    display: flex;
+    flex-wrap: wrap;
+    transition:color 0.5s;
+  }
+}
+
+.section2--mainContent--titles:hover {
+  color: #CD919E;
+}
+
+.section2--mainContent--titleFont {
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.section2--mainContent--infosTitles {
+  display: flex;
+  flex-wrap:wrap;
+  width:auto;
+  position: relative;
+
+}
+
+
+.infosTitles--seeProject{
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+  left:0;
+  bottom:0;
+  padding-left: 0;
+  transition:all 0.2s;
+  width: 0;
+   color: #CD919E;
+  font-weight: bold;
+}
