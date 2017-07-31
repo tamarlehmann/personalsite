@@ -746,6 +746,22 @@
   .firstname { top: 20%; }
     }
 
+    @media screen and (min-width: 1300px) {
+    /*------------------------------------------------------------------*/
+            .section1--label { margin-top: 40px; }
+            .firstname { top: 8%; }
+
+        }
+
+
+    @media screen and (min-width: 1800px) {
+    /*------------------------------------------------------------------*/
+          .section1--label { margin-top: 40px; }
+          .firstname { top: 8%; }
+
+        }
+
+
 /* Aside informations */
 
 .ui-arrowSquare--mobile {
