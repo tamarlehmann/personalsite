@@ -748,52 +748,6 @@
 
 /* Aside informations */
 
-.section1--asideInfos {
-  display: flex;
-  flex-wrap:wrap;
-  align-items:center;
-  justify-content:flex-end;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 15vw;
-  width: 80vh;
-  margin: 0 15vw 0 0;
-  z-index: 100;
-  transform-origin: 100% 0;
-  transform: rotate(-90deg);
-  animation : fadeIn 4s linear 0.7s both;
-}
-
-.section1--asideInfos--title {
-  width: 50%;
-  font-weight: bold;
-  text-align:left;
-  transform:rotate(90deg);
-  color: #CD919E;
-}
-
-.section1--asideInfos--arroWrapper {
-  display: flex;
-  flex-wrap:wrap;
-  align-items:center;
-  justify-content:flex-end;
-  width: 50%;
-  transform:rotate(180deg);
-}
-
-
-.section1--asideInfos--arrow  {
-  display: flex;
-  flex-wrap:wrap;
-  align-items:center;
-  justify-content:flex-end;
-  position: relative;
-  height: 2em;
-  width: 20vh;
-  cursor: pointer;
-}
-
 .ui-arrowSquare--mobile {
   align-items:center;
   position: absolute;
@@ -804,6 +758,11 @@
   cursor: pointer;
   border-left: 5px solid black;
   border-bottom: 5px solid black;
+}
+
+.section1--layer {
+  width: 100%;
+
 }
 
 @media screen and (min-width: 416px) {
