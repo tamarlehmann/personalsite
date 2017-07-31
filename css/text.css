@@ -22,6 +22,7 @@ a:hover {color:#CD919E;cursor: pointer;}
       .L-text { font-size: 1.5em;}
       .XL-text { font-size: 2.5em;}
       .XXL-text { font-size: 3em;}
+      .G-text { font-size: 4.3em;}
       .GG-text {font-size:6em;}
       .intro-text { font-size: 2em;}
 
@@ -41,6 +42,22 @@ a:hover {color:#CD919E;cursor: pointer;}
       .L-text { font-size: 2em;}
       .XL-text { font-size: 2.5em; }
       .XXL-text { font-size: 3em;}
+      .G-text { font-size: 5.5em;}
+      .GG-text {font-size:10.5em;}
+      .intro-text { font-size: 2.5em;}
+
+    }
+
+@media screen and (min-width: 700px) {
+/*------------------------------------------------------------------*/
+      .XS-text { font-size: 0.8em; }
+      .S-text { font-size: 0.9em; }
+      .-text {font-size: 1.1em;}
+      .M-text {font-size: 1.3em;}
+      .L-text { font-size: 2em;}
+      .XL-text { font-size: 2.5em; }
+      .XXL-text { font-size: 3em;}
+      .G-text { font-size: 6.5em;}
       .GG-text {font-size:10.5em;}
       .intro-text { font-size: 2.5em;}
 
@@ -55,6 +72,7 @@ a:hover {color:#CD919E;cursor: pointer;}
       .L-text { font-size: 2.5em;}
       .XL-text { font-size: 3.8em; }
       .XXL-text { font-size: 4.8em;}
+      .G-text { font-size: 9em;}
       .GG-text {font-size:13.5em;}
       .intro-text { font-size: 3.8em;}
 
@@ -70,6 +88,7 @@ a:hover {color:#CD919E;cursor: pointer;}
       .L-text { font-size: 2.5em;}
       .XL-text { font-size: 4.5em; }
       .XXL-text { font-size: 5.5em;}
+      .G-text { font-size: 15em;}
       .GG-text {font-size:22em;}
       .intro-text { font-size: 4.5em;}
 
@@ -85,6 +104,7 @@ a:hover {color:#CD919E;cursor: pointer;}
       .L-text { font-size: 2.8em; }
       .XL-text { font-size: 6em; }
       .XXL-text { font-size: 8em;}
+      .G-text { font-size: 18em;}
       .GG-text {font-size:30em;}
       .intro-text { font-size: 6em;}
 

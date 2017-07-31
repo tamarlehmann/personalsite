@@ -25,7 +25,7 @@
       <nav class="navigation">
 
 
-  			<ul class="navigation--menulist">
+  			<!-- <ul class="navigation--menulist">
   					<li data-menuanchor="section1" class="upAnimHover">
   						<a href="#home" class="menulink1 XS-text" >home</a>
   					</li>
@@ -35,7 +35,7 @@
   					<li data-menuanchor="section3" class="upAnimHover">
   						<a href="#contact" class="menulink3 XS-text">contact</a>
   					</li>
-  				</ul>
+  				</ul> -->
 
   		</nav>
 
@@ -44,25 +44,18 @@
         <!-- Section 1 -->
         <div class="section1 section" data-anchor="home">
           <div class="section1--introAnimationWrapper">
-            <div class="section1--letter letter1 XL-text">T</div>
-    			  <div class="section1--letter letter2 XL-text animateDelay">a</div>
-    			  <div class="section1--letter letter3 XL-text animateDelay">m</div>
-            <div class="section1--letter letter4 XL-text animateDelay">a</div>
-            <div class="section1--letter letter5 XL-text animateDelay">r</div>
-            <div class="section1--letter letter6 XL-text animateDelay">L</div>
-            <div class="section1--letter letter7 XL-text animateDelay">e</div>
-            <div class="section1--letter letter8 XL-text animateDelay">h</div>
-            <div class="section1--letter letter9 XL-text animateDelay">m</div>
-            <div class="section1--letter letter10 XL-text animateDelay">a</div>
-            <div class="section1--letter letter11 XL-text animateDelay">n</div>
-            <div class="section1--letter letter12 XL-text animateDelay">n</div>
+            <span class="txt firstname anim-text-flow G-text">Tamar</span>
+            <span class="txt lastname anim-text-flow G-text">Lehmann</span>
+            <span class="section1--label M-text">psychology graduate // software engineer</span>
+            <span class="ui-arrowSquare--mobile" style="transform:scale(0.8) rotate(-45deg)"></span>
           </div>
 
-          <aside class="section1--asideInfos">
-  					<h1 class="section1--asideInfos--title M-text">
-  						Web Developer
-  					</h1>
-  				</aside>
+          <aside  class="sectionFrame--main--scrollInfo activateAnim5 delay5">
+            <div class="sectionFrame--main--scrollInfo--wrapper">
+              <span class="sectionFrame--main--scrollInfo--text XS-text">Scroll</span>
+              <span class="ui-arrowSquare" style="transform:scale(0.8) rotate(-45deg);"></span>
+            </div>
+          </aside>
 
         </div>
 
@@ -143,6 +136,15 @@
         <!--fullpage section4-->
 	      <div class="section4 section" data-anchor="contact">
 
+          <aside  class="sectionFrame--main--scrollInfo activateAnim5 delay5">
+            <div class="sectionFrame--main--scrollInfo--wrapper">
+
+              <span class="ui-arrowSquare" style="transform:scale(0.8) rotate(135deg);"></span>
+              <span class="sectionFrame--main--scrollInfo--text XS-text">Scroll</span>
+
+            </div>
+          </aside>
+
           <!--Section4 mainContent-->
     			<div class="sectionFrame--mainContent">
     				<div class="sectionFrame--mainContent--wrapper">
@@ -175,6 +177,7 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/homepage.js"></script>
     <script>
       $(document).ready(function() {
 	      $('#fullpage').fullpage({

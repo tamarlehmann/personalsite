@@ -1,16 +1,12 @@
 $( document ).ready(function() {
-  // console.log("hello");
-  // if(!$('body').hasClass('fp-viewing-section1')) {
-  //   console.log("hi");
-  //   $(".navigation").css("display","flex");
+  // if($('body').hasClass('fp-viewing-home')) {
+  //   $(".navigation").css("display","none");
   // }
-  // else if (!$('body').hasClass('fp-viewing-section2')) {
-  //   console.log("here");
+  // else if ($('body').hasClass('fp-viewing-more-about-me')) {
   //   $(".navigation").css("display","flex");
   // }
 
   $(".ui-responsiveTitles" ).click(function(event) {
-    console.log("hello");
     event.preventDefault();
   });
 });
